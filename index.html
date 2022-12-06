@@ -4,51 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
-    <link rel="stylesheet" href="styles.css">
-    <title>Mobile nav</title>
+    <link rel="Stylesheet" href="styles.css">
+    <title>Document</title>
+    <script src="index.js" defer></script>
 </head>
 <body>
-        <div class="phone">
-            <img src="https://images.unsplash.com/photo-1480074568708-e7b720bb3f09?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=874&q=80" alt="Home" class="content show">
-             <img src="https://images.unsplash.com/photo-1568605114967-8130f3a36994?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="Work"class="content">
-            <img src="https://images.unsplash.com/photo-1584738766473-61c083514bf4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="Blog" class="content">
-            <img src="https://images.unsplash.com/photo-1583608205776-bfd35f0d9f83?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="About_us" class="content">
- 
-            <nav>
-                 <ul>
-                    <li >
-                        <i class="fas fa-home"></i>
-                        <p>Home</p>
-        
-                    </li>
-        
-        
-                    <li >
-                        <i class="fas fa-box"></i>
-                        <p>Work</p>
-        
-                    </li>
-        
-        
-                    <li >
-                        <i class="fas fa-book-open"></i>
-                        <p>Blog</p>
-        
-                    </li>
-        
-        
-                    <li >
-                        <i class="fas fa-users"></i>
-                        <p>About Us  </p>
-        
-                    </li>
-        
-        
-                </ul> 
-                </nav> 
+    <div class="screen-wrapper">
+        <div class="otp-conteiner">
+            <h3>Verify Your Account</h3>
+            <p class="description">  We emailed you the six digit code to cool_guy@email.com
+                <br />
+                Enter the code below to confirm your email address.
+            </p>
+            <div class="inputs-container" id="Zero">
+                <input data-number="0" class="otp-input" 
+                type="text"
+                placeholder="0"
+                maxlength="1"
+                autofocus
+              />
+              <input data-number="1" class="otp-input" id="one" type="text" placeholder="0" maxlength="1" />
+              <input data-number="2" class="otp-input" id="two" type="text" placeholder="0" maxlength="1" />
+              <input data-number="3" class="otp-input" id="three" type="text" placeholder="0" maxlength="1" />
+              <input data-number="4" class="otp-input" id="four" type="text" placeholder="0" maxlength="1" />
+              <input data-number="5" class="otp-input" id="five" type="text" placeholder="0" maxlength="1" />
+            </div>
+            <div class="foot-note">
+                This is design only. We didn't actually sent you an email as we don't
+                have your email, right?
+              </div>
         </div>
-        
+    </div>
     
 </body>
 </html>
